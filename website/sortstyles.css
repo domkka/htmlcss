@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#sortContainer {
+    align-self: center;
+    border: 3px solid;
+    background-color: black;
+    height: 522px;
+    width: 500px;
+    text-align: left;
+}
+#size{
+    width: 30px;
+}
+
+#background{
+    background-color: rgb(102, 99, 99);
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: end;
+    grid-auto-columns: 10px;
+}
+
+.bar{
+    background-color: aqua;
+    width: 10px;
+    margin: 0;
+    gap: 0;
+}
